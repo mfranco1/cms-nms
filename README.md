@@ -25,15 +25,18 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#the-ermita-attractiveness-scale">The Ermita Attractiveness Scale</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+        <a href="#usage">Usage</a>
+        <ul>
+            <li><a href="#writing-an-assessment">Writing an Assessment</a></li>
+        </ul>
+    </li>
     <li><a href="#modified-eas">Modified EAS</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -48,7 +51,7 @@ Here's why EAS is useful:
 
 This scale provides a standardized quantitative measure of facial attractiveness but is inherently subjective and influenced by cultural, personal, and contextual factors. It should not be viewed as an absolute or definitive assessment, as perceptions of beauty vary widely. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all contributors who have helped expand this tool!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- Explaining the Scale -->
 ## The Ermita Attractiveness Scale
@@ -79,7 +82,7 @@ Both scales run from 0-10, however, AMS is meant as a screening tool in the abse
   </tr>
 </table>  ️  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- USAGE EXAMPLES -->
 
@@ -105,12 +108,23 @@ The following tables provide a structured framework for interpreting AMS and NMS
 | 7-8       | Moderate  | Consider intervention       |
 | 9-10      | Severe    | Immediate action needed     |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Writing an Assessment
+
+This is what an example of an assessment of *Person X* using EAS would look like:
+
+| AMS-NMS score | Assessment |
+| --- | --- |
+| 7-none | **A>** Cute, mild, AMS 7
+| 8-5 | **A>** Cute, mild, NMS 5 (AMS 8)
+| 9-4 | **A>** Not Cute, NMS 4 (AMS 9)
+| none-9 | **A>** Cute, severe, NMS 9
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- Modified EAS -->
 ## Modified EAS
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -128,21 +142,21 @@ Don't forget to give the project a star! Thanks again!
 
 See the [open issues](https://github.com/mfranco1/cms-nms/issues) for a full list of proposed features and known issues.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- CONTACT -->
 ## Contact
 
 Project Link: [EAS Scale](https://github.com/mfranco1/cms-nms)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
