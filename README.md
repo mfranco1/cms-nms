@@ -31,7 +31,12 @@
             <li><a href="#writing-an-assessment">Writing an Assessment</a></li>
         </ul>
     </li>
-    <li><a href="#modified-eas">Modified EAS</a></li>
+    <li>
+        <a href="#modified-eas">Modified EAS</a>
+        <ul>
+            <li><a href="#writing-an-meas-assessment">Writing an mEAS Assessment</a></li>
+        </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -123,6 +128,27 @@ This is what an example of an assessment of *Person X* using EAS would look like
 
 <!-- Modified EAS -->
 ## Modified EAS
+
+The Modified Ermita Attractiveness Scale (mEAS) introduces an additional variable, known as an **X factor**, which accounts for intangible qualities that may not be captured by AMS or NMS alone. This factor includes elements such as charisma, confidence, or an unquantifiable appeal that significantly enhances perceived attractiveness. When present, the X factor can justify stepping up the recommended action for a given AMS or NMS classification, ensuring that assessments better reflect real-world attractiveness dynamics beyond physical features alone.
+
+Explanation:
+
+* X Factor Presence: If present, it elevates the classification by one level, making the attractiveness assessment more dynamic
+* Adjusted Classification: Accounts for both AMS/NMS scores and the X factor’s influence
+* Recommended Action: Steps up intervention if the X factor justifies it
+
+### Writing an mEAS Assessment
+
+| AMS Score | NMS Score | X Factor Presence | Assessment | Recommended Action |
+|---|---|---|---|---|
+| 0-5| 0-4      | No               | A> Not cute, NMS 4 X-0 (AMS 5)            | No action needed            |
+| 0-5       | 0-4      | Yes              | A> Cute, mild, NMS 4 X-1 (AMS 5)                 | Further observation required |
+| 6-7       | 5-6      | No               | A> Cute, mild, NMS 6 X-0 (AMS 7)                 | Further observation required |
+| 6-7       | 5-6      | Yes              | A> Cute, moderate, NMS 6 X-1 (AMS 7)             | Consider intervention       |
+| 8-9       | 7-8      | No               | A> Cute, moderate, NMS 8 X-0 (AMS 9)             | Consider intervention       |
+| 8-9       | 7-8      | Yes              | Cute, severe, NMS 8 X-1 (AMS 9)               | Immediate action needed     |
+| 10        | 9-10     | No               | Cute, severe, NMS 10 X-0 (AMS 10)               | Immediate action needed     |
+| 10        | 9-10     | Yes              | Cute, extreme, NMS 10 X-1 (AMS 10)              | Priority action required    |
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
