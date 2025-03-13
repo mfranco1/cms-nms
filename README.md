@@ -1,5 +1,5 @@
-*This is just meant for fun. Do not take it too seriously. It's all nonsense :)*
 <a id="readme-top"></a>
+*This is just meant for fun. Do not take it too seriously. It's all nonsense :)*
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -23,14 +23,17 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#the-ermita-attractiveness-scale">The Ermita Attractiveness Scale</a></li>
     <li>
-        <a href="#usage">Usage</a>
+        <a href="#about-the-project">About The Project</a></li>
         <ul>
+            <li><a href="#disclaimer">Disclaimer</a></li>
+        </ul>
+    <li>
+        <a href="#the-ermita-attractiveness-scale">The Ermita Attractiveness Scale</a></li>
+        <ul>
+            <li><a href="#usage">Usage</a></li>
             <li><a href="#writing-an-assessment">Writing an Assessment</a></li>
         </ul>
-    </li>
     <li>
         <a href="#modified-eas">Modified EAS</a>
         <ul>
@@ -54,7 +57,9 @@ Here's why EAS is useful:
 * Simplicity makes it easy to adopt and use
 * You should practice objective thinking and use of the scientific process in other aspects of your life
 
-This scale provides a standardized quantitative measure of facial attractiveness but is inherently subjective and influenced by cultural, personal, and contextual factors. It should not be viewed as an absolute or definitive assessment, as perceptions of beauty vary widely. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all contributors who have helped expand this tool!
+### Disclaimer
+
+This scale provides a standardized quantitative measure of facial attractiveness but is inherently subjective and influenced by cultural, personal, and contextual factors. It should not be viewed as an absolute or definitive assessment, as **perceptions of beauty vary widely**. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all contributors who have helped expand this tool!
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -87,11 +92,9 @@ Both scales run from 0-10, however, AMS is meant as a screening tool in the abse
   </tr>
 </table>  ️  
 
-<p align="right"><a href="#readme-top">back to top</a></p>
-
 <!-- USAGE EXAMPLES -->
 
-## Usage
+### Usage
 
 The following tables provide a structured framework for interpreting AMS and NMS scores, categorizing them into different risk levels, and guiding appropriate actions. It helps standardize decision-making by offering clear recommendations based on score ranges, ensuring consistency in assessments and interventions.
 
@@ -115,14 +118,16 @@ The following tables provide a structured framework for interpreting AMS and NMS
 
 ### Writing an Assessment
 
-This is what an example of an assessment of *Person X* using EAS would look like:
+This is what a sample assessment of *Person X* using EAS would look like:
 
 | AMS-NMS score | Assessment |
 | --- | --- |
-| 7-none | **A>** Cute, mild, AMS 7
-| 8-5 | **A>** Cute, mild, NMS 5 (AMS 8)
-| 9-4 | **A>** Not Cute, NMS 4 (AMS 9)
-| none-9 | **A>** Cute, severe, NMS 9
+| 3-none | **A>** Not Attractive, AMS 3
+| 7-none | **A>** Attractive, mild, AMS 7
+| 8-5 | **A>** Attractive, mild, NMS 5 (AMS 8)
+| 9-4 | **A>** Not Attractive, NMS 4 (AMS 9)
+| none-2 | **A>** Not Attractive, NMS 2
+| none-9 | **A>** Attractive, severe, NMS 9
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -141,14 +146,14 @@ Explanation:
 
 | AMS Score | NMS Score | X Factor Presence | Assessment | Recommended Action |
 |---|---|---|---|---|
-| 0-5| 0-4      | No               | A> Not cute, NMS 4 X-0 (AMS 5)            | No action needed            |
-| 0-5       | 0-4      | Yes              | A> Cute, mild, NMS 4 X-1 (AMS 5)                 | Further observation required |
-| 6-7       | 5-6      | No               | A> Cute, mild, NMS 6 X-0 (AMS 7)                 | Further observation required |
-| 6-7       | 5-6      | Yes              | A> Cute, moderate, NMS 6 X-1 (AMS 7)             | Consider intervention       |
-| 8-9       | 7-8      | No               | A> Cute, moderate, NMS 8 X-0 (AMS 9)             | Consider intervention       |
-| 8-9       | 7-8      | Yes              | Cute, severe, NMS 8 X-1 (AMS 9)               | Immediate action needed     |
-| 10        | 9-10     | No               | Cute, severe, NMS 10 X-0 (AMS 10)               | Immediate action needed     |
-| 10        | 9-10     | Yes              | Cute, extreme, NMS 10 X-1 (AMS 10)              | Priority action required    |
+| 0-5| 0-4      | No               | A> Not Attractive, NMS 4 X-0 (AMS 5)            | No action needed            |
+| 0-5       | 0-4      | Yes              | A> Attractive, mild, NMS 4 X-1 (AMS 5)                 | Further observation required |
+| 6-7       | 5-6      | No               | A> Attractive, mild, NMS 6 X-0 (AMS 7)                 | Further observation required |
+| 6-7       | 5-6      | Yes              | A> Attractive, moderate, NMS 6 X-1 (AMS 7)             | Consider intervention       |
+| 8-9       | 7-8      | No               | A> Attractive, moderate, NMS 8 X-0 (AMS 9)             | Consider intervention       |
+| 8-9       | 7-8      | Yes              | Attractive, severe, NMS 8 X-1 (AMS 9)               | Immediate action needed     |
+| 10        | 9-10     | No               | Attractive, severe, NMS 10 X-0 (AMS 10)               | Immediate action needed     |
+| 10        | 9-10     | Yes              | Attractive, extreme, NMS 10 X-1 (AMS 10)              | Priority action required    |
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
