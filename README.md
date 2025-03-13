@@ -102,19 +102,19 @@ The following tables provide a structured framework for interpreting AMS and NMS
 
 | AMS Score | Classification       | Recommended Action          |
 |-----------|----------------------|-----------------------------|
-| 0-5       | Deficient | No action needed            |
-| 6-7       | Mild      | Further observation required |
-| 8-9       | Moderate  | Consider intervention       |
-| 10      | Severe    | Immediate action needed     |
+| 0-5       | Deficient | No action needed       |
+| 6-7       | Mild      | Further observation    |
+| 8-9       | Moderate  | Consider intervention  |
+| 10        | Severe    | Immediate intervention |
 
 ### NMS-based Decision-Making
 
 | NMS Score | Classification       | Recommended Action          |
 |-----------|----------------------|-----------------------------|
-| 0-4       | Deficient | No action needed            |
-| 5-6       | Mild      | Further observation required |
-| 7-8       | Moderate  | Consider intervention       |
-| 9-10      | Severe    | Immediate action needed     |
+| 0-4       | Deficient | No action needed         |
+| 5-6       | Mild      | Further observation      |
+| 7-8       | Moderate  | Consider intervention    |
+| 9-10      | Severe    | Immediate intervention   |
 
 ### Writing an Assessment
 
@@ -122,12 +122,14 @@ This is what a sample assessment of *Person X* using EAS would look like:
 
 | AMS-NMS score | Assessment |
 | --- | --- |
-| 3-none | **A>** Not Attractive, AMS 3
-| 7-none | **A>** Attractive, mild, AMS 7
-| 8-5 | **A>** Attractive, mild, NMS 5 (AMS 8)
-| 9-4 | **A>** Not Attractive, NMS 4 (AMS 9)
-| none-2 | **A>** Not Attractive, NMS 2
-| none-9 | **A>** Attractive, severe, NMS 9
+| AMS 3, NMS unknown | **A>** Not Attractive, AMS 3 |
+| AMS 7, NMS unknown | **A>** Attractive, mild, AMS 7 |
+| AMS 8, NMS 5 | **A>** Attractive, mild, NMS 5 (AMS 8) |
+| AMS 9, NMS 4 | **A>** Not Attractive, NMS 4 (AMS 9) |
+| AMS unknown, NMS 2 | **A>** Not Attractive, NMS 2 |
+| AMS unknown, NMS 9 | **A>** Attractive, severe, NMS 9 |
+
+When enough data is available for the determination of both AMS and NMS scores, **the NMS score will take precedence**. In such cases, the AMS score should still be included in parenthesis after the NMS score.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -147,13 +149,13 @@ Explanation:
 | AMS Score | NMS Score | X Factor Presence | Assessment | Recommended Action |
 |---|---|---|---|---|
 | 0-5| 0-4      | No               | A> Not Attractive, NMS 4 X-0 (AMS 5)            | No action needed            |
-| 0-5       | 0-4      | Yes              | A> Attractive, mild, NMS 4 X-1 (AMS 5)                 | Further observation required |
-| 6-7       | 5-6      | No               | A> Attractive, mild, NMS 6 X-0 (AMS 7)                 | Further observation required |
+| 0-5       | 0-4      | Yes              | A> Attractive, mild, NMS 4 X-1 (AMS 5)                 | Further observation  |
+| 6-7       | 5-6      | No               | A> Attractive, mild, NMS 6 X-0 (AMS 7)                 | Further observation  |
 | 6-7       | 5-6      | Yes              | A> Attractive, moderate, NMS 6 X-1 (AMS 7)             | Consider intervention       |
 | 8-9       | 7-8      | No               | A> Attractive, moderate, NMS 8 X-0 (AMS 9)             | Consider intervention       |
-| 8-9       | 7-8      | Yes              | Attractive, severe, NMS 8 X-1 (AMS 9)               | Immediate action needed     |
-| 10        | 9-10     | No               | Attractive, severe, NMS 10 X-0 (AMS 10)               | Immediate action needed     |
-| 10        | 9-10     | Yes              | Attractive, extreme, NMS 10 X-1 (AMS 10)              | Priority action required    |
+| 8-9       | 7-8      | Yes              | Attractive, severe, NMS 8 X-1 (AMS 9)               | Immediate intervention     |
+| 10        | 9-10     | No               | Attractive, severe, NMS 10 X-0 (AMS 10)               | Immediate intervention     |
+| 10        | 9-10     | Yes              | Attractive, extreme, NMS 10 X-1 (AMS 10)           | Priority intervention needed  |
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
