@@ -178,7 +178,7 @@ See the [open issues](https://github.com/mfranco1/cms-nms/issues) for a full lis
 <!-- LICENSE -->
 ## License
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the Unlicense License. See `LICENSE` for more information.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
