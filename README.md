@@ -16,12 +16,15 @@
 
   <h3 align="center">Ermita Attractiveness Scale (EAS)</h3>
   <p align="center">
+    v1.0.1
+  <p align="center">
     Quantifying Facial Attractiveness for Improved Decision-Making
 </div>
+<br>
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><b>Table of Contents</b></summary>
   <ol>
     <li>
         <a href="#about-the-project">About The Project</a></li>
@@ -38,11 +41,13 @@
         <a href="#modified-eas">Modified EAS</a>
         <ul>
             <li><a href="#writing-an-meas-assessment">Writing an mEAS Assessment</a></li>
+            <li><a href="#negative-x-factor">Negative X Factor</a></li>
         </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -100,7 +105,7 @@ The following tables provide a structured framework for interpreting AMS and NMS
 
 ### AMS-based Decision-Making
 
-| AMS Score | Classification       | Recommended Action          |
+| AMS Score | Classification       | Recommendation          |
 |-----------|----------------------|-----------------------------|
 | 0-5       | Deficient | No action needed       |
 | 6-7       | Mild      | Further observation    |
@@ -109,7 +114,7 @@ The following tables provide a structured framework for interpreting AMS and NMS
 
 ### NMS-based Decision-Making
 
-| NMS Score | Classification       | Recommended Action          |
+| NMS Score | Classification       | Recommendation          |
 |-----------|----------------------|-----------------------------|
 | 0-4       | Deficient | No action needed         |
 | 5-6       | Mild      | Further observation      |
@@ -129,6 +134,8 @@ This is what a sample assessment of *Person X* using EAS would look like:
 | AMS unknown, NMS 2 | **A>** Not Attractive, NMS 2 |
 | AMS unknown, NMS 9 | **A>** Attractive, severe, NMS 9 |
 
+If there is insufficient data to compute an AMS or NMS score, we simply leave it out of the assessment.
+
 When enough data is available for the determination of both AMS and NMS scores, **the NMS score will take precedence**. In such cases, the AMS score should still be included in parenthesis after the NMS score.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
@@ -146,16 +153,27 @@ Explanation:
 
 ### Writing an mEAS Assessment
 
-| AMS Score | NMS Score | X Factor Presence | Assessment | Recommended Action |
+| AMS Score | NMS Score | X Factor Presence | Assessment | Recommendation |
 |---|---|---|---|---|
-| 0-5| 0-4      | No               | A> Not Attractive, NMS 4 X-0 (AMS 5)            | No action needed            |
-| 0-5       | 0-4      | Yes              | A> Attractive, mild, NMS 4 X-1 (AMS 5)                 | Further observation  |
-| 6-7       | 5-6      | No               | A> Attractive, mild, NMS 6 X-0 (AMS 7)                 | Further observation  |
-| 6-7       | 5-6      | Yes              | A> Attractive, moderate, NMS 6 X-1 (AMS 7)             | Consider intervention       |
-| 8-9       | 7-8      | No               | A> Attractive, moderate, NMS 8 X-0 (AMS 9)             | Consider intervention       |
-| 8-9       | 7-8      | Yes              | Attractive, severe, NMS 8 X-1 (AMS 9)               | Immediate intervention     |
-| 10        | 9-10     | No               | Attractive, severe, NMS 10 X-0 (AMS 10)               | Immediate intervention     |
-| 10        | 9-10     | Yes              | Attractive, extreme, NMS 10 X-1 (AMS 10)           | Priority intervention needed  |
+| 0-5 | 0-4 | No (0)   | A> Not Attractive, NMS 4 X0 (AMS 5)     | No action needed       |
+| 0-5 | 0-4 | Yes (1)  | A> Attractive, mild, NMS 4 X1 (AMS 5)   | Further observation    |
+| 6-7 | 5-6 | No (0)   | A> Attractive, mild, NMS 6 X0 (AMS 7)   | Further observation    |
+| 6-7 | 5-6 | Yes (1)  | A> Attractive, moderate, NMS 6 X1 (AMS 7)    | Consider intervention   |
+| 8-9 | 7-8 | No (0)   | A> Attractive, moderate, NMS 8 X0 (AMS 9)    | Consider intervention   |
+| 8-9 | 7-8 | Yes (1)  | Attractive, severe, NMS 8 X1 (AMS 9)    | Immediate intervention |
+| 10  | 9-10| No (0)   | Attractive, severe, NMS 10 X0 (AMS 10)  | Immediate intervention |
+| 10  | 9-10| Yes (1)  | Attractive, extreme, NMS 10 X1 (AMS 10)   | Priority intervention   |
+
+### Negative X Factor
+
+The negative X factor (-X) in mEAS accounts for attributes that diminish perceived attractiveness beyond physical features. Unlike the positive X factor, which increments a subject's classification, the negative X factor steps down the assessment and recommended intervention due to factors such as poor hygiene, off-putting behaviors, etc. This ensures that the mEAS score reflects negative non-physical elements in addition to positive ones. If present, a negative X factor will reduce the classification by one level, refining the assessment to better align with real-world perceptions.
+
+| Negative X Factor Presence | Assessment  | Recommendation |
+|---|---|---|
+| No       | A> Attractive, mild, NMS 5 X0 (AMS 6)      | Further observation             |
+| Yes (-X) | A> Not Attractive, NMS 5 -X (AMS 6)        | No action needed           |
+| No       | A> Attractive, severe, NMS 9 X0 (AMS 10)   | Immediate intervention  |
+| Yes (-X) | A> Attractive, moderate, NMS 9 -X (AMS 10) | Consider intervention            |
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -187,7 +205,14 @@ Distributed under the Unlicense License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [EAS Scale](https://github.com/mfranco1/cms-nms)
+Project Link: [EAS guidelines](https://github.com/mfranco1/cms-nms)
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- Acknowledgements -->
+## Acknowledgements
+
+* Fellows of the Philippine Callroom Chika Society (FPCCS)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
