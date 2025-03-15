@@ -41,13 +41,13 @@
         <a href="#modified-eas">Modified EAS</a>
         <ul>
             <li><a href="#writing-an-meas-assessment">Writing an mEAS Assessment</a></li>
-            <li><a href="negative-x-factor">Negative X Factor</a></li>
+            <li><a href="#negative-x-factor">Negative X Factor</a></li>
         </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="acknowledgements">Acknowledgements</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
